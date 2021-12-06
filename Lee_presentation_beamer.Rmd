@@ -1,0 +1,49 @@
+---
+title: "Presentation & CV"
+author: "Sunhyoung (Sunny) Lee"
+date: "12-2-21"
+output: 
+  beamer_presentation:
+    theme: "AnnArbor"
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## About Me
+
+* Born July 9th, 1976 
+* Grew up in Seoul, South Korea
+* Doctoral student in Quantitative, Qualitative, Psychometric Methods (Expected graduation: 2024) 
+
+## My favorite animal
+<!-- download.file("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5db4c7b464b49a0007e9dfac%2FPhoto-of-Maltese-dog%2F960x0.jpg%3Ffit%3Dscale", "dog picture.jpg", mode = "wb") -->
+![](dog picture.jpg)
+
+
+## My favoriate plot
+
+```{r}
+library(ggplot2)
+p9 <- ggplot(data.frame(x = c(0, 1)), aes(x = x)) +
+        stat_function(fun = dnorm, args = list(0.2, 0.15),
+                      aes(colour = "Group 1"), size =1.5) +
+        stat_function(fun = dnorm, args = list(0.7, 0.05),
+                      aes(colour = "Group 2"), size = 1.5) +
+        scale_x_continuous(name = "Probability",
+                              breaks = seq(0, 1, 0.2),
+                              limits=c(0, 1)) +
+        scale_y_continuous(name = "Frequency") +
+        ggtitle("Normal function curves of probabilities") +
+        scale_colour_manual("Groups", values = c("#20B2AA", "#F6BE00"))+
+        theme_bw()+
+        theme(legend.position = "bottom")
+p9
+```
+
+## Link to Sunhyoung's CV
+
+Please click [*Sunhyoung' CV*](https://sunhyoung-lee.github.io/Lee_CV.pdf)
