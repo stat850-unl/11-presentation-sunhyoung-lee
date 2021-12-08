@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.12.2)  6 DEC 2021 08:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.12.2)  7 DEC 2021 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -691,8 +691,7 @@ File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count339
 \l__pdf_internal_box=\box77
-)
-No file Lee_presentation_beamer.aux.
+) (./Lee_presentation_beamer.aux)
 \openout1 = `Lee_presentation_beamer.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
@@ -873,24 +872,70 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-No file Lee_presentation_beamer.nav.
-[1
+(./Lee_presentation_beamer.nav) [1
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-! Missing endcsname inserted.
-<to be read again> 
-                   %
-l.130 \end{frame}
-                  
+<dog picture.jpg, id=46, 963.6pt x 642.4pt>
+File: dog picture.jpg Graphic file (type jpg)
+<use dog picture.jpg>
+Package pdftex.def Info: dog picture.jpg  used on input line 130.
+(pdftex.def)             Requested size: 342.2936pt x 228.19572pt.
+
+Overfull \vbox (10.19138pt too high) detected at line 130
+ []
+
+[3
+
+ <./dog picture.jpg>]
+<Lee_presentation_beamer_files/figure-beamer/unnamed-chunk-1-1.pdf, id=54, 722.
+7pt x 505.89pt>
+File: Lee_presentation_beamer_files/figure-beamer/unnamed-chunk-1-1.pdf Graphic
+ file (type pdf)
+<use Lee_presentation_beamer_files/figure-beamer/unnamed-chunk-1-1.pdf>
+Package pdftex.def Info: Lee_presentation_beamer_files/figure-beamer/unnamed-ch
+unk-1-1.pdf  used on input line 135.
+(pdftex.def)             Requested size: 342.29358pt x 239.6055pt.
+
+Overfull \vbox (21.60115pt too high) detected at line 135
+ []
+
+[4
+
+ <./Lee_presentation_beamer_files/figure-beamer/unnamed-chunk-1-1.pdf>]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 141.
+[5
+
+]
+\tf@nav=\write5
+\openout5 = `Lee_presentation_beamer.nav'.
+
+\tf@toc=\write6
+\openout6 = `Lee_presentation_beamer.toc'.
+
+\tf@snm=\write7
+\openout7 = `Lee_presentation_beamer.snm'.
+
+(./Lee_presentation_beamer.aux) ) 
 Here is how much of TeX's memory you used:
- 24071 strings out of 478353
- 468352 string characters out of 5852101
- 758709 words of memory out of 5000000
- 41710 multiletter control sequences out of 15000+600000
- 418948 words of font info for 44 fonts, out of 8000000 for 9000
+ 24128 strings out of 478353
+ 469542 string characters out of 5852101
+ 758729 words of memory out of 5000000
+ 41741 multiletter control sequences out of 15000+600000
+ 422025 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,1020b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm
+/lm-ec.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/tex
+live/2021/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2021/texmf-di
+st/fonts/type1/public/lm/lmss8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/publ
+ic/lm/lmsso10.pfb>
+Output written on Lee_presentation_beamer.pdf (5 pages, 165474 bytes).
+PDF statistics:
+ 99 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
+ 12383 words of extra memory for PDF output out of 14400 (max. 10000000)
 
-!  ==> Fatal error occurred, no output PDF file produced!
