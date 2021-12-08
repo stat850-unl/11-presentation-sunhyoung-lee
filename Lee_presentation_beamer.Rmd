@@ -46,4 +46,4 @@ p9
 
 ## Link to Sunhyoung's CV
 
-Please click [*Sunhyoung' CV*](https://sunhyoung-lee.github.io/Lee_CV.pdf)
+Please click *[Sunhyoung' CV](https://sunhyoung-lee.github.io/Lee_CV.pdf)*
